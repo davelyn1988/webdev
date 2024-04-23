@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="../TETRIS/2.jpg">
+    <title>Tetris</title>
+    <style>
+        body {
+            background-image: url(../TETRIS/1.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            color: rgb(16, 15, 15);
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body style=" background-repeat: no-repeat;">
+    <h1 id="tetris-heading"><center>TETRIS BATTLE</center></h1>
+    <div id="tetris">
+      <div id="info">
+        <div id="next_shape"></div>
+        <p  id="level">Level: <span></span></p>
+        <p id="lines">Lines: <span></span></p>
+        <p id="score">Score: <span></span></p>
+        <p id="time">Time: <span></span></p>
+        <button id="start">Start</button>
+        <button id="restart">Restart</button>
+        <p class="red">Press the ESC button to pause<span></span></p>
+      </div>
+      <div id="canvas"></div>
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
